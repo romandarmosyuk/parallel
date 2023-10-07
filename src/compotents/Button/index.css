@@ -1,0 +1,15 @@
+.button {
+  border-radius: 4px;
+  border: 1px solid #0f0f0f;
+  background: #fff;
+  padding: 8px 28px;
+}
+
+.button-shadow {
+  box-shadow: 6px 6px 0px 0px #0f0f0f;
+}
+
+.button-lime {
+  padding: 13px 70px;
+  background-color: #eafa35;
+}
