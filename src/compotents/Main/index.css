@@ -1,7 +1,6 @@
 .main {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .main__title {
@@ -58,4 +57,44 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
+}
+
+.main__hired {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  padding-top: 150px;
+}
+
+.hired__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 70px;
+}
+
+.hired__title {
+  max-width: 35%;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.hired__button-text {
+  color: #0f0f0f;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.hired__advantages {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  max-width: 100%;
 }
