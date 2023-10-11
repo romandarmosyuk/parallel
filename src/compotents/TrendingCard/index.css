@@ -1,0 +1,42 @@
+.trending__card {
+  max-width: 310px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 1px solid #0f0f0f;
+  background: #fff;
+  padding: 25px 30px;
+}
+
+.card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 25px;
+}
+
+.card__title {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.card__subtitle {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 12px;
+  margin-top: auto;
+}
+
+.card__employees {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-left: 50px;
+}

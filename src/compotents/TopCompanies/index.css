@@ -1,0 +1,47 @@
+.top__card {
+  max-width: 310px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 1px solid #0f0f0f;
+  background: #fff;
+  padding: 25px 30px;
+}
+
+.top__image {
+  height: 80px;
+  margin-bottom: 40px;
+}
+
+.top__title {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+
+.top__subtitle {
+  color: #000;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.top__position {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.top__employees {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 50px;
+  margin-bottom: 22px;
+}

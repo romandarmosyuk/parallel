@@ -98,3 +98,44 @@
   gap: 50px;
   max-width: 100%;
 }
+
+.trending {
+  display: flex;
+  flex-direction: column;
+  background-color: #fefcf8;
+}
+
+.trending__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 140px 30px 60px 30px;
+}
+
+.trending__title {
+  color: #0f0f0f;
+  font-family: "Roboto";
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.trending__button {
+  color: #000;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.trending__catalog {
+  display: flex;
+  gap: 26px;
+  margin-bottom: 125px;
+  margin: 0 40px;
+  flex-wrap: nowrap;
+}
+
+.top {
+  margin-bottom: 140px;
+}

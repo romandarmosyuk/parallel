@@ -5,6 +5,9 @@ import { Wrapper } from "../Wrapper";
 import Input from "../Input"
 import { Button } from "../Button";
 import Advantages from "../Advantages";
+import TrendingCard from "../TrendingCard";
+import TopCompanies from "../TopCompanies";
+import Culture from "../Culture";
 
 const Main = () => {
    return (
@@ -39,6 +42,27 @@ const Main = () => {
                <Advantages/>
             </div>
             </Wrapper>    
+         </div>
+         <div className="main__trending trending">
+            <div className="trending__wrapper">
+               <h3 className="trending__title"> Trending jobs</h3>
+               <div className="trending__button">View all</div>
+            </div>
+            <div className="trending__catalog">
+               <TrendingCard/>
+            </div>
+         </div>
+         <div className="main__trending top">
+            <div className="trending__wrapper">
+               <h3 className="trending__title"> Top Companies</h3>
+               <div className="trending__button">View all</div>
+            </div>
+            <div className="trending__catalog">
+               <TopCompanies/>
+            </div>
+         </div>
+         <div className="main__culture">
+            <Culture/>
          </div>
       </div>
    );
