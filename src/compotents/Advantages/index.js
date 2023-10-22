@@ -2,12 +2,11 @@ import React from "react";
 
 import "./index.css";
 
-import img1 from "./advantage_1.png";
 
 const advantageItem = [
-   {id: "1", href: {img1}, title: "Apply to humans", subtitle: "72% of applications are never seen by a human! With parallel you skip the line and go direct to the hiring team."},
-   {id: "2", href: "public/img2.png", title: "Instantly stand out", subtitle: "Showcase your projects, passions and work ethos with Parallel Profile to stand out from the crowd."},
-   {id: "3", href: "public/img3.png", title: "Real time feedback", subtitle: "Don't get ghosted! Get feedback & notifications with every application, so that you’re never left wondering."}
+   {id: "1", href: "../../advantage_1.png", title: "Apply to humans", subtitle: "72% of applications are never seen by a human! With parallel you skip the line and go direct to the hiring team."},
+   {id: "2", href: "../../img2.png", title: "Instantly stand out", subtitle: "Showcase your projects, passions and work ethos with Parallel Profile to stand out from the crowd."},
+   {id: "3", href: "../../img3.png", title: "Real time feedback", subtitle: "Don't get ghosted! Get feedback & notifications with every application, so that you’re never left wondering."}
 ];
 
 const Advantages = () => {
