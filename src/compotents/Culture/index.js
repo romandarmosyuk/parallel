@@ -24,9 +24,9 @@ const cultureItem = [
 const Culture = () => {
    return (
       <>
-         {cultureItem.map( ({value: String})=> (
+         {cultureItem.map( (value)=> (
             <div className="culture__box">
-                <p  className="culture__text"> {String}</p>
+                <p  className="culture__text"> {value}</p>
             </div>
          ))}
       </>

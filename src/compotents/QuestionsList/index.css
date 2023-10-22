@@ -1,0 +1,13 @@
+.question__box {
+  min-width: 100%;
+  padding: 38px 28px;
+  border-radius: 8px;
+  background: #262626;
+}
+
+.question__text {
+  color: #fff;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+}
