@@ -1,0 +1,53 @@
+.intro__title {
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.intro__title-first {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 130px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 156px;
+}
+
+.intro__title-second {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 130px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 156px;
+}
+
+.intro__subtitle {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.intro__input {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+
+.button__container {
+  display: flex;
+  gap: 10px;
+}
+
+.button__text_ {
+  color: #000;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 18px;
+}

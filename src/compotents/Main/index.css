@@ -3,62 +3,6 @@
   flex-direction: column;
 }
 
-.main__title {
-  display: flex;
-  flex-direction: column;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.main__title-first {
-  display: flex;
-  justify-content: flex-start;
-  font-size: 130px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 156px;
-}
-
-.main__title-second {
-  display: flex;
-  justify-content: flex-end;
-  font-size: 130px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 156px;
-}
-
-.main__subtitle {
-  max-width: 50%;
-  margin: 0 auto;
-  margin-bottom: 60px;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 36px;
-}
-
-.main__input {
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-  margin-bottom: 120px;
-}
-
-.button__container {
-  display: flex;
-  gap: 10px;
-}
-
-.button__text_ {
-  color: #000;
-  text-align: center;
-  font-family: "Work Sans";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-}
-
 .main__hired {
   display: flex;
   flex-direction: column;
@@ -90,13 +34,6 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-}
-
-.hired__advantages {
-  display: flex;
-  flex-direction: row;
-  gap: 50px;
-  max-width: 100%;
 }
 
 .trending {

@@ -1,5 +1,5 @@
 import React from "react";
-import  Header  from "./compotents/Header";
+import  { Header } from "./compotents/Header";
 import "./App.css"
 import Main from "./compotents/Main";
 

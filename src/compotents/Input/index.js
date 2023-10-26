@@ -1,7 +1,5 @@
 import "./index.css"
 
-const Input = () => {
+export const Input = () => {
    return <input type="text" name="myInput" className="input"/>
 }
-
-export default Input;

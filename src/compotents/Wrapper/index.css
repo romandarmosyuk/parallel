@@ -1,3 +1,13 @@
-.wrapper {
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.intro__wrapper {
   margin: 0 70px;
+}
+
+.main__wrapper {
+  margin: 0 85px;
 }

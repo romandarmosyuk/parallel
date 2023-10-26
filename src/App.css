@@ -5,6 +5,8 @@
 }
 
 .App {
-  max-width: 100%;
   font-family: "Work Sans";
+  font-weight: 400;
+  color: #000;
+  font-style: normal;
 }
