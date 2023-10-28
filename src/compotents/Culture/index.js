@@ -22,15 +22,11 @@ const cultureItem = [
 
 
 const Culture = () => {
-   return (
-      <>
-         {cultureItem.map( (value)=> (
-            <div className="culture__box">
+   return cultureItem.map( (value, index)=> (
+            <div className="culture__box" key={index}>
                 <p  className="culture__text"> {value}</p>
             </div>
-         ))}
-      </>
-   )
+         ))
 }
 
 export default Culture;

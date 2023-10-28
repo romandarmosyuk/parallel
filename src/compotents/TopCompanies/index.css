@@ -38,10 +38,11 @@
 }
 
 .top__employees {
+  display: flex;
+  gap: 5px;
   color: #000;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  padding-left: 50px;
   margin-bottom: 22px;
 }

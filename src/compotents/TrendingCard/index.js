@@ -12,7 +12,7 @@ const trendingItem = [
 ]
 
 
-const TrendingCard = () => {
+export const TrendingCard = () => {
    return (
       <>
          {trendingItem.map( ({href, title, subtitle, employees})  => (
@@ -37,5 +37,3 @@ const TrendingCard = () => {
       
    )
 }
-
-export default TrendingCard
