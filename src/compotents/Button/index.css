@@ -3,6 +3,7 @@
   border: 1px solid #0f0f0f;
   background: #fff;
   padding: 8px 28px;
+  cursor: pointer;
 }
 
 .button-shadow {
@@ -12,4 +13,11 @@
 .button-lime {
   padding: 13px 70px;
   background-color: #eafa35;
+}
+
+.button__outro {
+  font-family: "Roboto";
+  font-size: 14px;
+  border: 2px solid #000;
+  padding: 12px 60px;
 }

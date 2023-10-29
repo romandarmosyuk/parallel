@@ -1,15 +1,21 @@
-.culture__box {
-  border-radius: 10px;
-  border: 1px solid #000;
-  background: #fff;
+.main__culture {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 140px;
 }
 
-.culture__text {
-  padding: 17px 25px;
+.culture__title {
   color: #0f0f0f;
-  text-align: center;
-  font-family: Work Sans;
-  font-size: 28px;
+  font-family: "Roboto";
+  font-size: 38px;
   font-style: normal;
   font-weight: 400;
+  margin-bottom: 60px;
+}
+
+.culture__container {
+  display: flex;
+  row-gap: 32px;
+  column-gap: 23px;
+  flex-wrap: wrap;
 }

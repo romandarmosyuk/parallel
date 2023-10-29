@@ -7,7 +7,7 @@ import "./index.css"
 export const AboutProject = () => {
    return (
       <div className="main__hired hired">
-         <Wrapper className="main__wrapper">
+         <Wrapper className="hired__wrapper">
             <div className="hired__container">
                <h2 className="hired__title">Your new path to hired.</h2>
                <Button className="button-lime">

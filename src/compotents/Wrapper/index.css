@@ -8,6 +8,14 @@
   margin: 0 70px;
 }
 
-.main__wrapper {
+.hired__wrapper {
   margin: 0 85px;
+}
+
+.main__wrapper {
+  margin: 0 30px;
+}
+
+.accordion__wrapper {
+  margin: 0 110px;
 }

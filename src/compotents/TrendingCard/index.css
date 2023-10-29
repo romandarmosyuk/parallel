@@ -11,7 +11,7 @@
 .card__header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
   margin-bottom: 25px;
 }
 
@@ -33,10 +33,11 @@
 }
 
 .card__employees {
+  display: flex;
+  gap: 5px;
   color: #000;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   margin-bottom: 20px;
-  padding-left: 50px;
 }

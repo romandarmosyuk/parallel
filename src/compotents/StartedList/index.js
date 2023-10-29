@@ -10,7 +10,7 @@ const startedItem = [
    { index: 5, text: "Land interviews quicker", info: "5"}
 ]
 
-const StartedList = () => {
+export const StartedList = () => {
    const [activeListItem, setActiveStateItem] = useState(startedItem[0]);
    return (
       <>
@@ -30,5 +30,3 @@ const StartedList = () => {
       </>   
    )
 }
-
-export default StartedList;

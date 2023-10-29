@@ -1,115 +1,19 @@
-import React from "react";
+import { Top } from "../Top";
+import { Wrapper } from "../Wrapper";
 
 import "./index.css"
 
-import { Button } from "../Button";
+export const TopCompanies = () => {
+   return (
+      <div className="main__trending trending">
+         <Wrapper className="main__wrapper">
+         <div className="trending__wrapper">
+   <h3 className="trending__title"> Top Companies</h3>
+   <div className="trending__button">View all</div>
+</div>
+   <Top/>   
+         </Wrapper>
 
-const topItem = [
-   {
-      id: 1, 
-      href: "public/bg1.png", 
-      title: "Webflow", 
-      subtitle: "Manufacturing · San Francisco, CA", 
-      position: 2, 
-      employees: [
-         { id: 1, href: "bg1.png" },
-         { id: 2, href: "bg1.png" },
-         { id: 3, href: "bg1.png" },
-         { id: 4, href: "bg1.png" },
-         { id: 5, href: "bg1.png" },
-      ]
-   },
-   {
-      id: 2, 
-      href: "ppublic/bg2.png", 
-      title: "Patreon", 
-      subtitle: "Manufacturing · San Francisco, CA", 
-      position: 13, 
-      employees: [
-         { id: 1, href: "bg1.png" },
-         { id: 2, href: "bg1.png" },
-         { id: 3, href: "bg1.png" },
-         { id: 4, href: "bg1.png" },
-         { id: 5, href: "bg1.png" },
-      ]
-   },
-   {
-      id: 3, 
-      href: "public/bg3.png", 
-      title: "Faire", 
-      subtitle: "Manufacturing · San Francisco, CA", 
-      position: 15, 
-      employees: [
-         { id: 1, href: "bg1.png" },
-         { id: 2, href: "bg1.png" },
-         { id: 3, href: "bg1.png" },
-         { id: 4, href: "bg1.png" },
-         { id: 5, href: "bg1.png" },
-      ]
-   },
-   {
-      id: 4, 
-      href: "public/bg4.png", 
-      title: "Breef", 
-      subtitle: "Manufacturing · New York, NY", 
-      position: 0, 
-      employees: [
-         // { id: 1, href: "bg1.png" },
-         // { id: 2, href: "bg1.png" },
-         // { id: 3, href: "bg1.png" },
-         // { id: 4, href: "bg1.png" },
-         // { id: 5, href: "bg1.png" },
-      ]
-   }
-]
-
-
-
-const TopCompanies = () => {
-   return topItem.map( ({href, title, subtitle, position, employees})  => (
-      <div className="top__card top">
-         <div className="top__image">
-         <img  src={href} />
-         </div>
-         <h3 className="top__title">{title}</h3>
-         <p className="top__subtitle">{subtitle}</p>
-
-         <p className="top__position">
-            {position ? `${ position } Open position` : "No active positions"} 
-         </p>
-
-          <div className="top__employees">
-            {employees.length ? (
-            <>
-               <>
-               {employees.slice(0,2).map(({href}) => {
-                  return (
-                     <div className="empl">
-                        <img
-                           src={href}
-                           alt=""
-                           style={{width: "20px", height: "20px", objectFit: "cover", borderRadius: "50%"}}
-                        />
-                     </div>
-                  );
-                  })}
-                  {employees.length > 2 && <span>+{employees.length - 2}</span>}
-            </>
-            Active employees
-            </>) : (
-            <>
-               <span> None employees</span>
-            </>)}
-            
-                  
-            
-          </div>
-
-          <Button className="button-shadow">
-            <p className="button__text">Browse Jobs</p>
-         </Button>
-      </div>
-   ))      
+</div>
+   )
 }
-
-export default TopCompanies;

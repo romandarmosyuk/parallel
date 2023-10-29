@@ -1,4 +1,4 @@
-import React from "react";
+
 
 import "./index.css"
 
@@ -21,12 +21,10 @@ const cultureItem = [
 ]
 
 
-const Culture = () => {
+export const Tag = () => {
    return cultureItem.map( (value, index)=> (
             <div className="culture__box" key={index}>
                 <p  className="culture__text"> {value}</p>
             </div>
          ))
 }
-
-export default Culture;

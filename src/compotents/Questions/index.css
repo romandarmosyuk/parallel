@@ -1,0 +1,21 @@
+.faq {
+  padding-top: 140px;
+  background-color: #000;
+  padding-bottom: 160px;
+}
+
+.faq__title {
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 55px;
+}
+
+.faq__questions {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

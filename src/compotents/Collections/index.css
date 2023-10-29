@@ -1,0 +1,21 @@
+.collections__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0 30px 60px 0;
+}
+
+.collections__title {
+  color: #0f0f0f;
+  font-family: "Roboto";
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.collections__catalog {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 190px;
+}
