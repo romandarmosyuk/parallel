@@ -1,0 +1,25 @@
+.footer__info {
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 40px;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  width: 100%;
+}
+
+.footer__list-title {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.footer__link {
+  color: #d3d3d3;
+  font-size: 17px;
+  margin-bottom: 15px;
+}

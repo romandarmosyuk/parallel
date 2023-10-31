@@ -15,11 +15,11 @@ export const Intro = () => {
          jobs, without the black box.
          </p>
          <div className="intro__input">
-            <Input/>
+            <Input className="input__intro"/>
             <Button className="button-lime">
                <div className="button__container">
                   <p className="button__text_">Explore</p>
-                  <img href="./public/str.svg" />
+                  <img src="str.svg" />
                </div>
             </Button>
          </div>

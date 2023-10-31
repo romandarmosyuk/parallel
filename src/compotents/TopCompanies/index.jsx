@@ -9,7 +9,10 @@ export const TopCompanies = () => {
          <Wrapper className="main__wrapper">
          <div className="trending__wrapper">
    <h3 className="trending__title"> Top Companies</h3>
-   <div className="trending__button">View all</div>
+   <button className="trending__button">
+                     <span>View all</span>
+                     <img src="str.svg"/>
+                  </button>
 </div>
    <Top/>   
          </Wrapper>

@@ -3,11 +3,11 @@ import React, { useState } from "react";
 import "./index.css"
 
 const startedItem = [
-   { index: 1, text: "Build your new profile", info: "1" },
-   { index: 2, text: "Discover jobs you love", info: "2" },
-   { index: 3, text: "Apply direct to teams", info: "3" },
-   { index: 4, text: "Get quick feedback", info: "4" },
-   { index: 5, text: "Land interviews quicker", info: "5"}
+   { index: 1, text: "Build your new profile", info: "collections1.png" },
+   { index: 2, text: "Discover jobs you love", info: "collections2.png" },
+   { index: 3, text: "Apply direct to teams", info: "collections3.png" },
+   { index: 4, text: "Get quick feedback", info: "collections4.png" },
+   { index: 5, text: "Land interviews quicker", info: "collections5.png"}
 ]
 
 export const StartedList = () => {
@@ -26,7 +26,8 @@ export const StartedList = () => {
             </div>
          ))}
          </div>
-         <div className="started__info">{activeListItem.info}</div>
+         <div className="started__info" style={{backgroundImage: `url(${activeListItem.info})`}}>
+            </div>
       </>   
    )
 }

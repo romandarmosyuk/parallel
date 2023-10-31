@@ -9,7 +9,10 @@ export const Collections = () => {
             <Wrapper className="main__wrapper">
                <div className="collections__wrapper">
                   <h3 className="collections__title"> Browse Collections</h3>
-                  <div className="trending__button">View all</div>
+                  <button className="trending__button">
+                     <span>View all</span>
+                     <img src="str.svg"/>
+                  </button>
                </div>
                      <CollectionsCard/>
             </Wrapper>  

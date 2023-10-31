@@ -25,7 +25,9 @@ export const CollectionsCard = () => {
                      <h4 className="collections__name">{ title }</h4>
                      <p className="collections__subtitle">{ subtitle }</p>
                   </div>
-                  <div className="collections__subscribe"></div>
+                  <div className="collections__subscribe">
+                     <img src="pls.svg"/>
+                  </div>
                </div>
             </div> 
          ))}

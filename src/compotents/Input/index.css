@@ -1,10 +1,20 @@
 .input {
   width: 100%;
-  max-width: 440px;
   border-radius: 4px;
   border: 1px solid #0f0f0f;
   background: #fff;
-  padding: 15px 0;
-  font-family: "Work Sans";
+}
+
+.input__intro {
+  max-width: 440px;
   font-size: 22px;
+  padding: 15px 0;
+}
+
+.input__footer {
+  max-width: 240px;
+  font-size: 18px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 8px 0;
 }

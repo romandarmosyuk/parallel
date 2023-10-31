@@ -1,5 +1,6 @@
 .collections__card {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   border-radius: 0px 0px 12px 12px;
   border: 1px solid #0f0f0f;
@@ -41,6 +42,9 @@
 }
 
 .collections__subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50px;
   height: 50px;
   border: 2px solid #000;

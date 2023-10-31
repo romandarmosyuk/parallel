@@ -20,6 +20,13 @@
 }
 
 .trending__button {
+  border: none;
+  color: inherit;
+  background-color: transparent;
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+  align-items: center;
   color: #000;
   font-family: "Roboto";
   font-size: 18px;
@@ -29,6 +36,6 @@
 
 .trending__catalog {
   display: flex;
+  flex-wrap: wrap;
   gap: 26px;
-  flex-wrap: nowrap;
 }
