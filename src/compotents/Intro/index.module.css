@@ -1,0 +1,53 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.titleFirst {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 130px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 156px;
+}
+
+.titleSecond {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 130px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 156px;
+}
+
+.subtitle {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.input {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+
+.container {
+  display: flex;
+  gap: 15px;
+}
+
+.text {
+  color: #000;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 18px;
+}

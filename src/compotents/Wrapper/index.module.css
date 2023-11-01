@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.intro {
+  margin: 0 70px;
+}
+
+.about {
+  margin: 0 85px;
+}
+
+.main {
+  margin: 0 30px;
+}
+
+.accordion {
+  margin: 0 110px;
+}
+
+.footer {
+  margin: 0 30px;
+}

@@ -1,15 +1,16 @@
 import { Wrapper } from "../Wrapper";
 import { Accordion } from "../Accordion";
 
-import "./index.css"
+import classes from "./index.module.css";
+import wrapper from '../Wrapper/index.module.css';
 
 
 export const Questions =() => {
    return (
-      <div className="main__faq faq">
-            <Wrapper className="accordion__wrapper">
-               <h3 className="faq__title">FAQs</h3>
-               <div className="faq__questions">
+      <div className={ classes.faq }>
+            <Wrapper className={ wrapper.accordion }>
+               <h3 className={ classes.title }>FAQs</h3>
+               <div className={ classes.questions }>
                   <Accordion/>
                </div>
             </Wrapper>

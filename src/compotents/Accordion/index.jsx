@@ -1,26 +1,26 @@
 import { useState } from "react";
 import { faq } from "./data.js";
-import str from "../../image/str2.png"
+import str from "../../image/str2.png";
 
-import "./index.css"
+import classes from "./index.module.css";
 
 export const Accordion = () => {
-   const [openId, setId] = useState(null);
+   const [openId, setId] = useState();
    
-   return <ul className="accordion">
+   return <ul className={ classes.accordion}>
       {faq.map(({ id, question, answer }) => {
-         return <li className="accordion__item" key={ id }>
-            <button 
-               className="accordion__header" 
-               onClick={ () => (id === openId ? setId(null) : setId(id)) } 
+         return <li className={ classes.item } key={ id }>
+            <button className={ classes.header }
+               onClick={ () => (id === openId ? setId() : setId(id)) } 
             >
-               <p className="accordion__text">{ question }</p>
-               <div className={`accordion__icon ${id === openId ? "transform" : ""}`}>
+               <p className={ classes.text }>{ question }</p>
+               <div className={ `${id === openId ? classes.transform : ""}` }>
                   <img  src={ str } alt=""/>
                </div>
             </button>
-            <div className={ `accordion__body ${ id === openId ? "open" : "" }` }>{ answer }</div>
-               
+            <div className={ `${ classes.body } ${ id === openId ? classes.open : "" }` }>
+               { answer }
+            </div>
          </li>
       })}
    </ul>

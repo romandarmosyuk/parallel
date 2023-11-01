@@ -1,0 +1,35 @@
+.advantages {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 160px;
+}
+
+.image {
+  /* width: 60px;
+  height: 60px; */
+  margin-bottom: 16px;
+}
+
+.title {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.subtitle {
+  max-width: 310px;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}

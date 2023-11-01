@@ -1,11 +1,11 @@
 import { advantageItems as items} from "./mock";
 import { AdvantagesCard } from "./Card";
 
-import "./index.css";
+import classes from "./index.module.css";
 
 export const Advantages = () => {
    return (
-      <div className="hired__advantages" > 
+      <div className={ classes.advantages } > 
          {items.map(( item ) => (
             <AdvantagesCard { ...item }/> 
          ))}

@@ -1,19 +1,20 @@
-import { Link } from "../Link/index.js"
-import { footerItems as items } from "./data.js"
+import { Link } from "../Link/index.jsx";
+import { footerItems as items } from "./data.js";
 
-import "./index.css"
+import classes from "./index.module.css";
+import link from '../Link/index.module.css';
 
 export const FooterInfo = () => {
    return (
-      <div className="footer__info">
-         {items.map((item) => (
-            <div className="footer__list" key={ item.id }>
-               <span className="footer__list-title">{ item.title }</span>
-               <Link className='footer__link'>{ item.link1 }</Link>
-               <Link className='footer__link'>{ item.link2 }</Link>
-               <Link className='footer__link'>{ item.link3 }</Link>
+      <div className={ classes.info }>
+         {items.map(( item ) => (
+            <div className={ classes.list } key={ item.id }>
+               <span className={ classes.title }>{ item.title }</span>
+               <Link className={ link.footer }>{ item.link1 }</Link>
+               <Link className={ link.footer }>{ item.link2 }</Link>
+               <Link className={ link.footer }>{ item.link3 }</Link>
             </div>
          ))}
       </div>
-   )
-}
+   );
+};

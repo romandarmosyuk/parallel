@@ -1,0 +1,66 @@
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+
+.card {
+  max-width: 310px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 1px solid #0f0f0f;
+  background: #fff;
+  padding: 25px 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+
+.logo {
+  width: 42px;
+  height: 42px;
+}
+
+.like {
+  width: 16px;
+  height: 16px;
+}
+
+.title {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 12px;
+  margin-top: auto;
+}
+
+.employees {
+  display: flex;
+  gap: 5px;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.text {
+  color: #0f0f0f;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 14px;
+}

@@ -1,0 +1,77 @@
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+
+.card {
+  max-width: 310px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 1px solid #0f0f0f;
+  background: #fff;
+}
+
+.imageContainer {
+  height: 80px;
+  margin-bottom: 40px;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.image:last-child {
+  width: 100%;
+  height: 80px;
+  object-fit: fill;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+  margin-bottom: 25px;
+}
+
+.title {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  color: #000;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.position {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.employees {
+  display: flex;
+  gap: 5px;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 22px;
+}
+
+.text {
+  color: #0f0f0f;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 14px;
+}

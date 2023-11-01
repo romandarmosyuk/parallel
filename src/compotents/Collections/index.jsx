@@ -1,15 +1,16 @@
 import { Wrapper } from "../Wrapper";
 import { CollectionsCard } from "../CollectionsCard";
 
-import "./index.css"
+import classes from "./index.module.css";
+import wrapper from '../Wrapper/index.module.css';
 
 export const Collections = () => {
    return (
-      <div className="main__collections collections">
-            <Wrapper className="main__wrapper">
-               <div className="collections__wrapper">
-                  <h3 className="collections__title"> Browse Collections</h3>
-                  <button className="trending__button">
+      <div className={ classes.collections }>
+            <Wrapper className={ wrapper.main }>
+               <div className={ classes.container }>
+                  <h3 className={ classes.title }> Browse Collections</h3>
+                  <button className={ classes.button }>
                      <span>View all</span>
                      <img src="str.svg"/>
                   </button>

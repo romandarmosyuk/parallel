@@ -1,17 +1,16 @@
 import { Wrapper } from "../Wrapper";
-import { StartedList } from "../StartedList";
+import { GuideList } from "../GuideList";
 
-import "./index.css"
+import classes from "./index.module.css";
+import wrapper from '../Wrapper/index.module.css';
 
 export const Guide = () => {
    return (
-      <div className="main__started started">
-            <Wrapper className="main__wrapper">
-               <h4 className="started__title">It’s simple to get started</h4>
-               <div className="started__container">
-                  <StartedList/>
-               </div>
+      <div className={ classes.guide }>
+            <Wrapper className={ wrapper.main }>
+               <h4 className={ classes.title }>It’s simple to get started</h4>
+               <GuideList/>
             </Wrapper>
          </div>
-   )
-}
+   );
+};

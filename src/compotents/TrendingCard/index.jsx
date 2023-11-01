@@ -1,26 +1,26 @@
-import "./index.css";
 import like from "./like.svg";
 import { Button } from "../Button";
-
 import { trendingItem } from "./mock.js";
 
+import classes from "./index.module.css";
+import button from '../Button/index.module.css';
 
 export const TrendingCard = () => {
    return (
-      <div className="trending__catalog">
-         {trendingItem.map( ({href, title, subtitle, employees})  => (
-            <div className="trending__card card">
-                <div className="card__header">
-                  <div className="card__logo">
-                     <img  src={href} />
+      <div className={ classes.catalog }>
+         {trendingItem.map(({ href, title, subtitle, employees })  => (
+            <div className={ classes.card }>
+                <div className={ classes.header }>
+                  <div className={ classes.logo }>
+                     <img  src={ href } />
                   </div>
-                  <div>
-                     <img src={like}/>
+                  <div className={ classes.like }>
+                     <img src={ like }/>
                   </div>
                 </div>
-                <h3 className="card__title">{title}</h3>
-                <p className="card__subtitle">{subtitle}</p>
-                <div className="card__employees">
+                <h3 className={ classes.title }>{title}</h3>
+                <p className={ classes.subtitle }>{subtitle}</p>
+                <div className={ classes.employees}>
                   {employees.length ? (
                      <>
                         <>
@@ -45,8 +45,8 @@ export const TrendingCard = () => {
                   )}
                  
                   </div>
-                <Button className="button-shadow">
-                  <p className="button__text">Apply Direct</p>
+                <Button className={ button.shadow }>
+                  <p className={ classes.text }>Apply Direct</p>
                </Button>
             </div>
          ))}

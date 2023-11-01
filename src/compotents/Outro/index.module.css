@@ -1,0 +1,29 @@
+.outro {
+  background-color: white;
+}
+
+.container {
+  padding-top: 175px;
+  margin-bottom: 150px;
+}
+
+.title {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 75px;
+  margin-bottom: 25px;
+}
+
+.subtitle {
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.box {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,58 @@
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 190px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-radius: 0px 0px 12px 12px;
+  border: 1px solid #0f0f0f;
+  background: #fff;
+}
+
+.image {
+  width: 360px;
+  height: 190px;
+}
+
+.container {
+  display: flex;
+  padding: 20px 32px;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #191919;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #191919;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #000;
+}

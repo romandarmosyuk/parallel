@@ -2,23 +2,27 @@ import { Wrapper } from "../Wrapper";
 import { Input } from "../Input";
 import { Button } from "../Button";
 
-import "./index.css"
+import classes from "./index.module.css";
+import wrapper from '../Wrapper/index.module.css';
+import button from '../Button/index.module.css';
+import input from '../Input/index.module.css';
 
 export const Intro = () => {
    return (
-      <Wrapper className="intro__wrapper">
-         <div className="intro__title">
-            <h1 className="intro__title-first">Land a job</h1>
-            <h1 className="intro__title-second">the easy way</h1>
+      <Wrapper className={ wrapper.intro }>
+         <div className={ classes.title }>
+            <h1 className={ classes.titleFirst }>Land a job</h1>
+            <h1 className={ classes.titleSecond }>the easy way</h1>
          </div>
-         <p className="intro__subtitle">The best place to discover & apply to the coolest start up 
-         jobs, without the black box.
+         <p className={ classes.subtitle }>
+            The best place to discover & apply to the coolest start up 
+            jobs, without the black box.
          </p>
-         <div className="intro__input">
-            <Input className="input__intro"/>
-            <Button className="button-lime">
-               <div className="button__container">
-                  <p className="button__text_">Explore</p>
+         <div className={ classes.input }>
+            <Input className={ input.intro }/>
+            <Button className={ button.lime }>
+               <div className={ classes.container }>
+                  <p className={ classes.text }>Explore</p>
                   <img src="str.svg" />
                </div>
             </Button>

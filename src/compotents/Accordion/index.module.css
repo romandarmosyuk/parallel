@@ -1,0 +1,47 @@
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.item {
+  min-width: 100%;
+  border-radius: 8px;
+  background: #262626;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  padding: 38px 28px;
+}
+
+.text {
+  color: #fff;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.body {
+  display: none;
+}
+
+.open {
+  display: block;
+  height: auto;
+  color: #aeabab;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0 28px;
+  padding-bottom: 38px;
+}
+
+.transform {
+  transform: scale(1, -1);
+}

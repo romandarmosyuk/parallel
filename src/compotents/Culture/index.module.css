@@ -1,0 +1,14 @@
+.culture {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 140px;
+}
+
+.title {
+  color: #0f0f0f;
+  font-family: "Roboto";
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
